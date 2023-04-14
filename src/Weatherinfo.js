@@ -21,9 +21,9 @@ export default function Weatherinfo (props){
     </div>
         <div className="col-6">
    <WeatherTemperature celsius = {props.data.temperature}/>
-
+<div className="Weather-img">
           <img alt ={props.data.description} src={props.data.icon_url}/> 
-      
+      </div>
         </div>
         
       </div>

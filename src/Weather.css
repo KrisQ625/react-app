@@ -54,10 +54,13 @@
 
 }
 
-.Weather img {
+.Weather-img {
+
+  margin: 5px;
+}
+.Weather  img {
   width: 200px;
 }
-
 .date {
   font-style: italic;
   font-weight: 100;
