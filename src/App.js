@@ -6,8 +6,8 @@ function App() {
   return (<div className='App'>
 <div className='container'>
   <Weather defaultCity = "London"/>
-  <footer> This project was created by Kristina Vujnovac and is {""}
-    <a href="https://github.com/KrisQ625/weather-app-react" target="_blank" rel=" noopener noreferrer">open sourced</a>
+  <footer> This project was created by Kristina Vujnovac and is open-sourced on {""}
+    <a href="https://github.com/KrisQ625/weather-app-react" target="_blank" rel=" noopener noreferrer"> GitHub 🖥️</a>
   </footer>
   </div>
   </div>
