@@ -61,7 +61,7 @@ if (weatherData.ready){return(<div className="Weather">
     </div>
     </form>
     <Weatherinfo data={weatherData}/>
-    <WeatherForecast data={weatherData}/>
+    <WeatherForecast city={weatherData.city}/>
 
 
     
