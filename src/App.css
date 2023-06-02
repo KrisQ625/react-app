@@ -5,13 +5,14 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 .App {
   margin: 60px auto;
   max-width: 600px;
+  
 }
 
 
 .App footer {
   font-size: 15px;
   margin: 10px 0;
-  color: brown;
+  color: rgb(26, 25, 25);
 
 }
 .App a {
