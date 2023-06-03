@@ -16,7 +16,7 @@ if (unit === "celsius")
 {
   return (
   <div>
-  <h2> {Math.round(props.celsius)}<small className="unit">°C / <a href="/" on onClick={convertToFahernheit}>°F</a></small></h2>
+  <h2 className="temperature"> {Math.round(props.celsius)}<small className="unit d-inline-flex">°C / <a href="/" on onClick={convertToFahernheit}>°F</a></small></h2>
      </div>
 
  );}

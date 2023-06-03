@@ -9,7 +9,7 @@
 }
 
 .Weather h1 {
-  font-size: 53px;
+  font-size: 60px;
   font-style: italic;
   font-family: 'Dancing Script';
   line-height: 48px;
@@ -23,7 +23,7 @@
   font-style: italic;
   font-family: 'Dancing Script';
   font-weight: 100;
-  font-size: 85px;
+  font-size: 90px;
   opacity: 1;
   line-height: 80px;
   margin: 100px 0 5px;
@@ -55,7 +55,7 @@
 
 .Weather img {
 margin: 5px;
-width: 200px;
+width: 250px;
 }
 
 
@@ -67,5 +67,12 @@ width: 200px;
 }
 .Weather-img{
   margin-top: 0;
+  display: flex;
+  justify-content: center;
 
+}
+
+.temperature{
+  display: flex;
+  justify-content: center;
 }
