@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import "./Weather.css";
 
 
 export default function WeatherTemperature(props){
@@ -23,7 +24,7 @@ if (unit === "celsius")
  else{
   let fahrenheit = (props.celsius*9) /5+ 32;
   return (<div>
-  <h2> {Math.round(fahrenheit)}<small className="unit"><a href="/" on onClick={convertToCelsius}>°C</a> / °F</small></h2>
+  <h2> {Math.round(fahrenheit)}<small className="unit d-inline-flex"><a href="/" on onClick={convertToCelsius}>°C</a> / °F</small></h2>
      </div>);
  }
 
